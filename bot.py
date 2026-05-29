@@ -6,8 +6,8 @@ import joblib
 app = FastAPI()
 
 # 2. Loads the trained models
-model = joblib.load('spam_classifier_model.pkl')
-vectorizer = joblib.load('text_vectorizer.pkl')
+model = joblib.load('models/spam_classifier_model.pkl')
+vectorizer = joblib.load('models/text_vectorizer.pkl')
 
 # 3. Create the endpoint that Twilio will talk to
 @app.post("/whatsapp")

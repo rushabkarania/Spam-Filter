@@ -24,8 +24,8 @@ def authenticate_gmail():
 
 def main():
     print("🧠 Loading AI Model...")
-    model = joblib.load('spam_classifier_model.pkl')
-    vectorizer = joblib.load('text_vectorizer.pkl')
+    model = joblib.load('models/spam_classifier_model.pkl')
+    vectorizer = joblib.load('models/text_vectorizer.pkl')
 
     print("🔌 Connecting to Google...")
     service = authenticate_gmail()

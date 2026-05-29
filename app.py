@@ -9,8 +9,8 @@ st.write("Paste any suspicious text message, email, or DM below to see if it is 
 # 2.Load trained models
 @st.cache_resource
 def load_ai():
-    model = joblib.load('spam_classifier_model.pkl')
-    vectorizer = joblib.load('text_vectorizer.pkl')
+    model = joblib.load('models/spam_classifier_model.pkl')
+    vectorizer = joblib.load('models/text_vectorizer.pkl')
     return model, vectorizer
 
 model, vectorizer = load_ai()
