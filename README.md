@@ -13,6 +13,11 @@ The AI is deployed across three different environments: a WhatsApp Bot, a live G
 * **Gmail Guardian (`gmail_spam_bot.py`):** A continuous polling script utilizing the Google Cloud API. It actively monitors an inbox for unread mail, scores them, and automatically banishes spam to the Spam folder.
 * **Web UI (`app.py`):** A clean, interactive frontend built with Streamlit for users to manually paste and test suspicious messages.
 
+## Dataset & Training
+The AI model was trained using the [Email Spam Classification Dataset](https://www.kaggle.com/datasets/purusinghvi/email-spam-classification-dataset) from Kaggle. 
+
+*Note: The raw `email-spam-classification-dataset.csv` file is not included in this repository due to GitHub's file size limits. If you wish to run the Jupyter Notebook and retrain the model from scratch, please download the dataset from the link above and place it in the `notebooks/` directory.*
+
 ## Tech Stack
 * **Language:** Python
 * **Machine Learning:** Scikit-Learn, Pandas, Joblib
