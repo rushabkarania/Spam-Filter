@@ -76,5 +76,3 @@ uvicorn bot:app --reload
 ```
 
 
-
-Go refresh your GitHub page, and your portfolio will look incredibly professional. Let me know when it is up!
