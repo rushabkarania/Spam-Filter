@@ -1,34 +1,25 @@
-You are in exactly the right spot in VS Code. This is exactly where we want to build the file.
-
-Here are the two things you need.
-
-### 1. What to paste into that empty file in VS Code
-
-Copy everything inside the block below, paste it directly into that empty white space in your screenshot, and  **Save the file (`Ctrl+S`)** :
-
-**Markdown**
-
-```
-# AI Spam & Scam Detector 🕵️‍♂️
+# AI Spam & Scam Detector 
 
 An end-to-end Machine Learning pipeline that detects spam, scams, and phishing attempts in real-time. This project uses Natural Language Processing (NLP) and a Naive Bayes classifier to analyze text and calculate a "Spam Probability" score.
 
 The AI is deployed across three different environments: a WhatsApp Bot, a live Gmail background worker, and an interactive Web App.
 
-##Features
+**Live Web App:** [Click here to try the AI live!](https://spammessagefilter.streamlit.app/)
+
+## Features
 
 * **The Brain:** Custom-trained Naive Bayes ML model using Scikit-Learn (`TF-IDF` vectorization). tuned to a strict 79% confidence threshold to prevent false positives.
 * **WhatsApp Bot (`bot.py`):** A live FastAPI server connected to the Twilio Sandbox. Forwards incoming WhatsApp messages to the AI and replies instantly with a safety score.
 * **Gmail Guardian (`gmail_spam_bot.py`):** A continuous polling script utilizing the Google Cloud API. It actively monitors an inbox for unread mail, scores them, and automatically banishes spam to the Spam folder.
 * **Web UI (`app.py`):** A clean, interactive frontend built with Streamlit for users to manually paste and test suspicious messages.
 
-##Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Machine Learning:** Scikit-Learn, Pandas, Joblib
 * **Web Frameworks:** FastAPI, Streamlit, Uvicorn
 * **APIs & Integrations:** Twilio (WhatsApp), Google API Client (Gmail)
 
-##How to Run Locally
+## How to Run Locally
 
 If you want to run this project on your own machine, follow these steps:
 
@@ -86,8 +77,4 @@ python gmail_spam_bot.py
 uvicorn bot:app --reload
 ```
 
-```
 
-```
-
-Go refresh your GitHub page, and your portfolio will look incredibly professional. Let me know when it is up!
