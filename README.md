@@ -1,8 +1,10 @@
-# AI Spam & Scam Detector 🕵️‍♂️
+# AI Spam & Scam Detector 
 
 An end-to-end Machine Learning pipeline that detects spam, scams, and phishing attempts in real-time. This project uses Natural Language Processing (NLP) and a Naive Bayes classifier to analyze text and calculate a "Spam Probability" score.
 
 The AI is deployed across three different environments: a WhatsApp Bot, a live Gmail background worker, and an interactive Web App.
+
+**Live Web App:** [Click here to try the AI live!](https://your-streamlit-link-here.app)
 
 ## Features
 
