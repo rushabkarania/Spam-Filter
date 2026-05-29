@@ -1,11 +1,3 @@
-You are in exactly the right spot in VS Code. This is exactly where we want to build the file.
-
-Here are the two things you need.
-
-### 1. What to paste into that empty file in VS Code
-
-Copy everything inside the block below, paste it directly into that empty white space in your screenshot, and  **Save the file (`Ctrl+S`)** :
-
 **Markdown**
 
 ```
