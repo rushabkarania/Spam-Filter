@@ -1,6 +1,3 @@
-**Markdown**
-
-```
 # AI Spam & Scam Detector 🕵️‍♂️
 
 An end-to-end Machine Learning pipeline that detects spam, scams, and phishing attempts in real-time. This project uses Natural Language Processing (NLP) and a Naive Bayes classifier to analyze text and calculate a "Spam Probability" score.
@@ -78,8 +75,6 @@ python gmail_spam_bot.py
 uvicorn bot:app --reload
 ```
 
-```
 
-```
 
 Go refresh your GitHub page, and your portfolio will look incredibly professional. Let me know when it is up!
