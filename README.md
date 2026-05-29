@@ -4,7 +4,7 @@ An end-to-end Machine Learning pipeline that detects spam, scams, and phishing a
 
 The AI is deployed across three different environments: a WhatsApp Bot, a live Gmail background worker, and an interactive Web App.
 
-**Live Web App:** [Click here to try the AI live!](https://your-streamlit-link-here.app)
+**Live Web App:** [Click here to try the AI live!](https://spammessagefilter.streamlit.app/)
 
 ## Features
 
